@@ -3,10 +3,10 @@ public class App {
         Author gogol = new Author("Николай", " Гоголь ");
         Book deadSouls = new Book("Мёртвые души ", gogol, 1842);
         deadSouls.setYearOfTheBook(1845);
-        System.out.println(deadSouls);
+        System.out.println(deadSouls.getBookInfo());
 
         Author annaAkhmatova = new Author("Анна ", "Ахматова ");
         Book grayKing = new Book("Сероглазый король ", annaAkhmatova, 1912);
-        System.out.println(grayKing);
+        System.out.println(grayKing.getBookInfo());
     }
 }
